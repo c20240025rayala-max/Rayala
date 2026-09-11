@@ -24,13 +24,20 @@ function mdas(num1,num2) {
 }
 console.log (mdas(5, 3));
 
-const heading = document.querySelector("h1");
+//querySelector
+    const heading = document.querySelector("h1");
     console.log(heading);
 
     const heading2 = document.querySelector("#contact h2");
     console.log(heading2);
+
     const heading3 = document.querySelector("#services h2");
     console.log(heading3);
+
+//textContent
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "let's connect";
+projectsHeading.textContent = "My Projects";
  
 
     
