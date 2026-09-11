@@ -20,8 +20,19 @@ function mdas(num1,num2) {
     let div = num1 / num2;
     let add = num1 + num2;
     let sub = num1 - num2;
-    return {mul, div, add, sub };
+    return (`Value: ${num1}, ${num2}: { mul: ${mul}, div: ${div}, add: ${add}, sub: ${sub} }`);
 }
-console.log (mdas(5, 3));   
+console.log (mdas(5, 3));
+
+const heading = document.querySelector("h1");
+    console.log(heading);
+
+    const heading2 = document.querySelector("#contact h2");
+    console.log(heading2);
+    const heading3 = document.querySelector("#services h2");
+    console.log(heading3);
+ 
 
     
+
+
