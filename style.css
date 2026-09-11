@@ -71,17 +71,12 @@ form {
     font: size 75px;
     color: red;
   }
-
-  span {
-    color: green;
-    font-size: 15px;
-  }
-
+  
 }
 
 @media(max-width:768px) {
   h2 {
-    font: size 40px;
+    font: size 48px;
     color: blue;
   }
 }
