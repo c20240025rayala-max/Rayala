@@ -1,13 +1,18 @@
 body {
   text-align: center;
 }
-#projects{
+
+#projects {
   background-color: orange;
+}
+
+#contact {
+  background-color: green;
 }
 
 ul {
   list-style: none;
- 
+
 }
 
 nav {
@@ -75,7 +80,7 @@ form {
     font: size 75px;
     color: red;
   }
-  
+
 }
 
 @media(max-width:768px) {
@@ -94,7 +99,7 @@ nav a:hover {
   color: red;
 }
 
-button{
+button {
   background-color: black;
   color: white;
   padding: 12px;
