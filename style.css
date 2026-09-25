@@ -1,6 +1,9 @@
 body {
   text-align: center;
 }
+#projects{
+  background-color: orange;
+}
 
 ul {
   list-style: none;
